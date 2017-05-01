@@ -4,7 +4,8 @@ A Powershell module enabling interaction with the DigitalOcean API.
 ## Setup
 Import module file and use the "Set-Token" cmdlet to added your DigitalOcean API token, this is required.
     Import-Module ./DOPSM.psm1
-	Set-Token -token <your api token here>
+
+    Set-Token -token <your api token here>
 
 ## Example Commands
 ### Listing all available Droplet names and ids
