@@ -1,12 +1,12 @@
 # DOPSM (DigitalOcean PowerShell Module)
-A PowerShell module providing cmdlets that allow easy administration of droplets, images and snapshots via the DigitalOcean API.
+A simple PowerShell module providing cmdlets that allow easy administration of droplets, images and snapshots via the DigitalOcean API.
 
 ## Setup
-Import module file and use the "Set-Token" cmdlet to added your DigitalOcean API token, this is required.
+Import module file and use the "Set-Token" cmdlet to added your DigitalOcean API token.
 
     Import-Module ./DOPSM.psm1
 
-    Set-Token -token <your api token here>
+    Set-Token -token <api token>
 
 ## Example Commands
 #### Listing all available Droplet names and ids
